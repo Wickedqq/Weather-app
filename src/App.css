@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-cold {
+  height: 100vh;
+  background-image: url(https://www.vascularhealthclinics.org/wp-content/uploads/2017/12/heart-disease-and-cold-weather.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app-worm {
+  height: 100vh;
+  background-image: url(https://picjumbo.com/wp-content/uploads/view-of-the-lake-michigan-on-a-sunny-day-1570x1047.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.serchBar-wrapper {
+  width: 90%;
+  margin: auto;
+  height: min-content;
+}
+.searchValue {
+  height: 40px;
+  width: 90%;
+  border: none;
+  outline: none;
+  background: transparent;
+  box-shadow: 0 0 0 2px whitesmoke;
+}
+.searchValue::placeholder {
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.location {
+  font-size: 50px;
+}
+.date {
+  font-size: 30px;
+}
+.temperature {
+  font-size: 100px;
+}
+.feelsLike {
+  font-size: 50px;
+}
